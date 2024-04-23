@@ -6,6 +6,7 @@
 
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
+  <remote name="TripleTrable" fetch="https://github.com/TripleTrable" />
   <remote name="meta-qt5" fetch="https://github.com/meta-qt5" />
 
   <!-- layers -->
@@ -14,10 +15,10 @@
            path="protos"
            revision="kirkstone" />
 
-  <project remote="jhnc-oss"
+  <project remote="TripleTrable"
            name="meta-protos"
            path="meta-protos"
-           revision="kirkstone" />
+           revision="a6aaf080e89ce2fc0e13bc980449ac7fdb5d1bbf" />
 
   <project remote="jhnc-oss"
            name="poky"
